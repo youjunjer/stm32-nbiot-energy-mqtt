@@ -2,6 +2,19 @@
 
 NUCLEO-L053R8 專案：讀取能源模組資料並透過 NB-IoT 發送到 MQTT。
 
+## 模組型號
+- NB-IoT 模組：LiteON `NB303`
+- 能源偵測模組：`PZEM004T`（你的描述為 PEZM004T）
+
+## 模組照片
+NB303 模組：
+
+![LiteON NB303](../docs/nb303.jpg)
+
+PZEM004T 模組：
+
+![PZEM004T](../docs/pzem004t.png)
+
 ## 功能
 - NB-IoT 自動初始化與連線
 - 能源模組讀值（SoftwareSerial）
@@ -68,6 +81,3 @@ Node-RED Dashboard 顯示（電流/電壓/功率/度數）：
 Node-RED Flow（MQTT topic `csu/energy/data` 解析與儀表板）：
 
 ![Node-RED Flow](./docs/nodered-flow.jpg)
-
-> 請將你提供的兩張截圖分別存成：
-> `docs/nodered-dashboard.jpg` 與 `docs/nodered-flow.jpg`
